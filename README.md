@@ -4,7 +4,7 @@ lung cancer based on supplied information and the UK Biobank risk
 prediction model.
 
 ## How to use this code
-You will need a copy of Stata, version 12.1 or higher, with the
+You will need a copy of Stata, version 11 or higher, with the
 user-written command stpm2 installed (-ssc install stpm2-). Open stata
 and change directory to the root of this repository. Running
 ```
