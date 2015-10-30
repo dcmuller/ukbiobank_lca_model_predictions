@@ -1,6 +1,6 @@
 clear all
 clear mata
-version 11 
+version 12.1 
 adopath ++ ./ado
 *************************************************************
 // configuration
