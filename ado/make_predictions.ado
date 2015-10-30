@@ -8,13 +8,13 @@ progr define make_predictions
 version 12.1
 syntax , nyears(integer) time0(varname)
 
-quietly estimates use ./model_binaries/m05_lung_cur
+quietly estimates use ./model_binaries/m05_lung_cur.ster
 quietly estimates store lung_cur
-quietly estimates use ./model_binaries/m05_lung_fmr
+quietly estimates use ./model_binaries/m05_lung_fmr.ster
 quietly estimates store lung_fmr
-quietly estimates use ./model_binaries/m05_lung_nev
+quietly estimates use ./model_binaries/m05_lung_nev.ster
 quietly estimates store lung_nev
-quietly estimates use ./model_binaries/m05_mort
+quietly estimates use ./model_binaries/m05_mort.ster
 quietly estimates store mort
 
 tempvar tempid
