@@ -4,7 +4,7 @@
 ** dcmuller
 
 program define cr_cif
-version 12.1
+version 12
 syntax namelist, ///
   idvar(varname) time(real) stub(string) [intpoints(integer 10) time0(varname)]
 local models "`namelist'"

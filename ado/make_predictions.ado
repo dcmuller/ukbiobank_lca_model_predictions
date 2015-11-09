@@ -5,7 +5,7 @@
 *!
 *! dcmuller
 progr define make_predictions
-version 12.1
+version 12
 syntax , nyears(integer) time0(varname)
 
 quietly estimates use ./model_binaries/m05_lung_cur.ster
