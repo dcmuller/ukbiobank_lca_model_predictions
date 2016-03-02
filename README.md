@@ -12,7 +12,7 @@ do predict_lca_risk.do
 ```
 will calculate the predicted risk of lung cancer. By default this will
 take covariate information from the file 'input.csv', calculate the
-5-year cumulative probability of lung cancer for each record therein,
+2-year cumulative probability of lung cancer for each record therein,
 and save the results in the file 'output.csv'. These default input,
 output, and time-horizons can be changed by editing the parameters in
 the configuration block at the beginning of the file

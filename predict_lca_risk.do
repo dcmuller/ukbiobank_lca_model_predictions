@@ -4,7 +4,7 @@ version 12
 adopath ++ ./ado
 *************************************************************
 // configuration
-local nyears 5 // 5-year predicted probability, change to any reasonable horizon
+local nyears 2 // 5-year predicted probability, change to any reasonable horizon
 local input_file "input.csv"
 local output_file "output.csv"
 *************************************************************
